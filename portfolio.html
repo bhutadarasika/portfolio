@@ -1,0 +1,115 @@
+<!DOCTYPE html>  	
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1 align="center">PERSONAL DATA SHEET</h1>
+    <hr color="black">
+    <br>
+    <form>
+      <div style="background-color: #f0f8ff; padding: 20px;">
+        <b><u>PERSONAL DATA:</u></b> <br><br>
+        First Name: <input type="text" name="firstname" size="40" maxlength="50"><br><br>
+        Middle Name: <input type="text" name="middlename" size="35" maxlength="50"><br><br>
+        Surname: <input type="text" name="surname" size="40" maxlength="50"><br><br>
+        Sex: <br>
+        <input type="radio" name="sex" value="male"> Male <br>
+        <input type="radio" name="sex" value="female"> Female <br><br>
+        Civil Status: <br>
+        <input type="radio" name="status" value="single"> Single <br>
+        <input type="radio" name="status" value="married"> Married <br>
+        <input type="radio" name="status" value="annulled"> Annulled <br>
+        <input type="radio" name="status" value="widowed"> Widowed <br>
+        <input type="radio" name="status" value="separated"> Separated <br><br>
+        Birth Date: <input type="text" name="birthdate" maxlength="50"><br><br>
+        Birth Place: <input type="text" name="birthplace" size="50" maxlength="50"><br><br>
+        Permanent Address: <input type="text" name="permanentaddress" size="150" maxlength="500"><br><br>
+      </div>
+      
+      <div style="background-color: #e6ffe6; padding: 20px; margin-top: 10px;">
+        <b><u>FAMILY BACKGROUND:</u></b> <br><br>
+        Father's Name: <input type="text" name="father" size="50" maxlength="50"><br><br>
+        Occupation: <input type="text" name="work" size="50" maxlength="50"><br><br>
+      </div>
+      
+      <div style="background-color: #fff0f5; padding: 20px; margin-top: 10px;">
+        <b><u>EDUCATIONAL BACKGROUND:</u></b> <br>
+        Check your Educational Attainment <br>
+        <input type="checkbox" name="elementary"> Elementary Graduate <br>
+        <input type="checkbox" name="highschool"> High School Graduate <br>
+        <input type="checkbox" name="college"> College Graduate <br>
+        <input type="checkbox" name="masteral"> Masteral Graduate <br>
+        <input type="checkbox" name="doctoral"> Doctoral Graduate <br><br>
+        College/University: 
+        <select name="college/universities">
+          <option> -Select- </option>
+          <option> Cebu Technological University </option>
+          <option> Cebu Normal University </option>
+          <option> Lapu-Lapu City College </option>
+          <option> San Jose Recoletos University </option>
+          <option> University of the Philippines </option>
+          <option> Cordova City College </option>
+          <option> University of Cebu - Lapu-Lapu and Mandaue </option>
+          <option> University of Cebu - Banilad </option>
+          <option> University of Cebu - Main </option>
+          <option> San Carlos University </option>
+        </select>
+        Year Graduated: 
+        <select name="year">
+          <option> -Select- </option>
+          <option> 2014 </option>
+          <option> 2013 </option>
+          <option> 2012 </option>
+          <option> 2011 </option>
+          <option> 2010 </option>
+          <option> 2009 </option>
+          <option> 2008 </option>
+          <option> 2007 </option>
+          <option> 2006 </option>
+          <option> 2005 </option>
+        </select><br><br>
+        High School: 
+        <select name="highschool">
+          <option> -Select- </option>
+          <option> Marigondon National High School </option>
+          <option> Pusok National High School </option>
+          <option> Maribago National High School </option>
+          <option> Lapu-Lapu Central High School </option>
+          <option> Datag National High School </option>
+          <option> Babag 1 National High School </option>
+          <option> Babag 2 National High School </option>
+          <option> Gun-ob National High School </option>
+        </select>
+        Year Graduated: 
+        <select name="year">
+          <option> -Select- </option>
+          <option> 2005 </option>
+          <option> 2004 </option>
+          <option> 2003 </option>
+          <option> 2002 </option>
+          <option> 2001 </option>
+          <option> 2000 </option>
+          <option> 1999 </option>
+          <option> 1998 </option>
+          <option> 1997 </option>
+          <option> 1996 </option>
+          <option> 1995 </option>
+        </select><br><br>
+      </div>
+      
+      <div style="background-color: #ffffe0; padding: 20px; margin-top: 10px;">
+        <b><u>CONTACT DETAILS:</u></b> <br><br>
+        Email Address: <input type="text" name="emailadd" size="40" maxlength="50"> <br><br>
+        Password: <input type="password" name="password" size="25" maxlength="50"> <br><br>
+        Phone Numbers: <br>
+        Cellphone <input type="text" name="cell" size="30" maxlength="50">
+        Telephone <input type="text" name="tel" size="30" maxlength="50"> <br><br>
+      </div>
+      
+      <br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Clear">
+    </form>
+  </body>
+</html>
